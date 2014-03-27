@@ -22,6 +22,8 @@ public class GameState {
 
         bait = new Bait(foodPosition(),foodPosition());
 
+        isEaten();
+
     }
 
     public int foodPosition() {
@@ -31,12 +33,14 @@ public class GameState {
         return position;
     }
 
-    public List<Snake> getSnake() { return snakePieces;}
+    public List<Snake> getSnake() { return snakePieces; }
 
     public Bait getBait() {return bait; }
 
-    public void isEaten() {
+    public Snake getLeadSnake() { return leadSnake; }
 
+    private boolean isEaten() {
+        return true;
     }
 
     public void userPressedLeft() {
