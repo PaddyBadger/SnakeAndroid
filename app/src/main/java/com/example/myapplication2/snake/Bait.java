@@ -1,6 +1,4 @@
-package com.example.myapplication2.snaketakeone;
-
-import java.util.Random;
+package com.example.myapplication2.snake;
 
 /**
  * Created by patriciaestridge on 3/26/14.

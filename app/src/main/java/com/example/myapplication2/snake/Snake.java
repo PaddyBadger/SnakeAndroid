@@ -1,4 +1,4 @@
-package com.example.myapplication2.snaketakeone;
+package com.example.myapplication2.snake;
 
 /**
  * Created by patriciaestridge on 3/25/14.
@@ -7,10 +7,9 @@ public class Snake {
     int x, y;
     public Boolean left, right, up;
     public Boolean down = true;
-    public Boolean isAlive = true;
-    private int unit = 50;
+    private static int unit = 50;
 
-    private Snake(int x, int y) {
+    public Snake(int x, int y) {
         this.x = x;
         this.y = y;
     }
